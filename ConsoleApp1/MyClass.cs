@@ -16,4 +16,9 @@ public class MyClass<T>
     {
         Console.WriteLine("property : " + prop);
     }
+
+    public (List<string>, int) MyTupleMethod()
+    {
+        return (new List<string> { "a", "b", "c" }, 3);
+    }
 }
