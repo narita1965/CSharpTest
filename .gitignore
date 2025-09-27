@@ -1,0 +1,12 @@
+*.db-shm
+*.db-wal
+*.vsidx
+*.suo
+*.json
+*.dll
+*.exe
+*.pdb
+*.cache
+*.cs
+*.txt
+*.editorconfig
