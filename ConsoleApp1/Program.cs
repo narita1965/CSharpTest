@@ -12,3 +12,5 @@ string str = "aaaa";
 MyClass<string> test3 = new MyClass<string>(str);
 Console.WriteLine("type = " + str.GetType());
 test3.MyMethod();
+(List<string> s, int num) = test3.MyTupleMethod();
+Console.WriteLine("tuple = " + string.Join(",", s) + " : " + num);
